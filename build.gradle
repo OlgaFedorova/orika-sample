@@ -1,0 +1,19 @@
+subprojects {
+    group 'ofedorova'
+    version '1.0'
+
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+
+    repositories {
+        mavenCentral()
+    }
+
+
+    dependencies {
+        compile group: 'ma.glasnost.orika', name: 'orika-core', version: '1.5.2'
+        compile group: 'org.projectlombok', name: 'lombok', version: '1.16.20'
+    }
+}

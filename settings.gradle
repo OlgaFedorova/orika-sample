@@ -1,0 +1,4 @@
+rootProject.name = 'orika-sample'
+include 'orika-simple'
+include 'orika-spring'
+
